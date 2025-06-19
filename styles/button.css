@@ -1,0 +1,60 @@
+.b1 {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  width: 105px;
+  height: 36px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.b1:hover {
+  opacity: 0.8;
+}
+
+.b1:active{
+  opacity: 0.6;
+}
+
+.b2 {
+    background-color: white;
+    border-color: rgb(46, 46, 243);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(46, 46, 243);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    transition: background-color 0.15s, color 0.15s;
+    font-weight: bold;
+}
+
+.b2:hover {
+  background-color: blue;
+  color: white;
+}
+
+.b2:active {
+  opacity: 0.7;
+}
+
+  .b3 {
+  background-color: rgb(71, 71, 246);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: box-shadow 0.1s;
+}
+
+.b3:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
